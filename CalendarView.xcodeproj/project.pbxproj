@@ -10,9 +10,9 @@
 		A2D7C00422B869BD0093F422 /* WeekdayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00322B869BD0093F422 /* WeekdayHeaderView.swift */; };
 		A2D7C00622B86D350093F422 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00522B86D350093F422 /* MonthView.swift */; };
 		A2D7C00822B86D800093F422 /* MonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00722B86D800093F422 /* MonthHeaderView.swift */; };
+		A2D7C00C22B9030D0093F422 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00B22B9030D0093F422 /* CalendarView.swift */; };
 		A2F3D71622B2F5FF00E53671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3D71522B2F5FF00E53671 /* AppDelegate.swift */; };
 		A2F3D71822B2F5FF00E53671 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3D71722B2F5FF00E53671 /* SceneDelegate.swift */; };
-		A2F3D71A22B2F5FF00E53671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3D71922B2F5FF00E53671 /* ContentView.swift */; };
 		A2F3D71C22B2F60000E53671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F3D71B22B2F60000E53671 /* Assets.xcassets */; };
 		A2F3D71F22B2F60000E53671 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F3D71E22B2F60000E53671 /* Preview Assets.xcassets */; };
 		A2F3D72222B2F60000E53671 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F3D72022B2F60000E53671 /* LaunchScreen.storyboard */; };
@@ -22,10 +22,10 @@
 		A2D7C00322B869BD0093F422 /* WeekdayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayHeaderView.swift; sourceTree = "<group>"; };
 		A2D7C00522B86D350093F422 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
 		A2D7C00722B86D800093F422 /* MonthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthHeaderView.swift; sourceTree = "<group>"; };
+		A2D7C00B22B9030D0093F422 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		A2F3D71222B2F5FF00E53671 /* CalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F3D71522B2F5FF00E53671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F3D71722B2F5FF00E53671 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2F3D71922B2F5FF00E53671 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A2F3D71B22B2F60000E53671 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2F3D71E22B2F60000E53671 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A2F3D72122B2F60000E53671 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		A2D7C00922B86DA70093F422 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A2F3D71922B2F5FF00E53671 /* ContentView.swift */,
+				A2D7C00B22B9030D0093F422 /* CalendarView.swift */,
 				A2D7C00322B869BD0093F422 /* WeekdayHeaderView.swift */,
 				A2D7C00522B86D350093F422 /* MonthView.swift */,
 				A2D7C00722B86D800093F422 /* MonthHeaderView.swift */,
@@ -172,11 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D7C00422B869BD0093F422 /* WeekdayHeaderView.swift in Sources */,
+				A2D7C00C22B9030D0093F422 /* CalendarView.swift in Sources */,
 				A2D7C00622B86D350093F422 /* MonthView.swift in Sources */,
 				A2F3D71622B2F5FF00E53671 /* AppDelegate.swift in Sources */,
 				A2F3D71822B2F5FF00E53671 /* SceneDelegate.swift in Sources */,
 				A2D7C00822B86D800093F422 /* MonthHeaderView.swift in Sources */,
-				A2F3D71A22B2F5FF00E53671 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
