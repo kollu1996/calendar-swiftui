@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A24FA98422B3D7F10091D40D /* WeekdayHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24FA98322B3D7F10091D40D /* WeekdayHeader.swift */; };
+		A2D7C00422B869BD0093F422 /* WeekdayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00322B869BD0093F422 /* WeekdayHeaderView.swift */; };
+		A2D7C00622B86D350093F422 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00522B86D350093F422 /* MonthView.swift */; };
+		A2D7C00822B86D800093F422 /* MonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00722B86D800093F422 /* MonthHeaderView.swift */; };
 		A2F3D71622B2F5FF00E53671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3D71522B2F5FF00E53671 /* AppDelegate.swift */; };
 		A2F3D71822B2F5FF00E53671 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3D71722B2F5FF00E53671 /* SceneDelegate.swift */; };
 		A2F3D71A22B2F5FF00E53671 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3D71922B2F5FF00E53671 /* ContentView.swift */; };
@@ -17,7 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A24FA98322B3D7F10091D40D /* WeekdayHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayHeader.swift; sourceTree = "<group>"; };
+		A2D7C00322B869BD0093F422 /* WeekdayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayHeaderView.swift; sourceTree = "<group>"; };
+		A2D7C00522B86D350093F422 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		A2D7C00722B86D800093F422 /* MonthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthHeaderView.swift; sourceTree = "<group>"; };
 		A2F3D71222B2F5FF00E53671 /* CalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F3D71522B2F5FF00E53671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F3D71722B2F5FF00E53671 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A2D7C00922B86DA70093F422 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2F3D71922B2F5FF00E53671 /* ContentView.swift */,
+				A2D7C00322B869BD0093F422 /* WeekdayHeaderView.swift */,
+				A2D7C00522B86D350093F422 /* MonthView.swift */,
+				A2D7C00722B86D800093F422 /* MonthHeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A2D7C00A22B86DD70093F422 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2F3D71B22B2F60000E53671 /* Assets.xcassets */,
+				A2F3D72022B2F60000E53671 /* LaunchScreen.storyboard */,
+				A2F3D72322B2F60000E53671 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A2F3D70922B2F5FF00E53671 = {
 			isa = PBXGroup;
 			children = (
@@ -60,11 +85,8 @@
 			children = (
 				A2F3D71522B2F5FF00E53671 /* AppDelegate.swift */,
 				A2F3D71722B2F5FF00E53671 /* SceneDelegate.swift */,
-				A2F3D71922B2F5FF00E53671 /* ContentView.swift */,
-				A24FA98322B3D7F10091D40D /* WeekdayHeader.swift */,
-				A2F3D71B22B2F60000E53671 /* Assets.xcassets */,
-				A2F3D72022B2F60000E53671 /* LaunchScreen.storyboard */,
-				A2F3D72322B2F60000E53671 /* Info.plist */,
+				A2D7C00922B86DA70093F422 /* Views */,
+				A2D7C00A22B86DD70093F422 /* Resources */,
 				A2F3D71D22B2F60000E53671 /* Preview Content */,
 			);
 			path = CalendarView;
@@ -149,9 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2D7C00422B869BD0093F422 /* WeekdayHeaderView.swift in Sources */,
+				A2D7C00622B86D350093F422 /* MonthView.swift in Sources */,
 				A2F3D71622B2F5FF00E53671 /* AppDelegate.swift in Sources */,
-				A24FA98422B3D7F10091D40D /* WeekdayHeader.swift in Sources */,
 				A2F3D71822B2F5FF00E53671 /* SceneDelegate.swift in Sources */,
+				A2D7C00822B86D800093F422 /* MonthHeaderView.swift in Sources */,
 				A2F3D71A22B2F5FF00E53671 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "CalendarView/Preview\\ Content";
 				DEVELOPMENT_TEAM = 6PQJ4KYE37;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CalendarView/Info.plist;
+				INFOPLIST_FILE = CalendarView/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +336,7 @@
 				DEVELOPMENT_ASSET_PATHS = "CalendarView/Preview\\ Content";
 				DEVELOPMENT_TEAM = 6PQJ4KYE37;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = CalendarView/Info.plist;
+				INFOPLIST_FILE = CalendarView/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
