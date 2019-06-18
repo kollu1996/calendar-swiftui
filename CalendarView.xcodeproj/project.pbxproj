@@ -11,6 +11,7 @@
 		A2D7C00622B86D350093F422 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00522B86D350093F422 /* MonthView.swift */; };
 		A2D7C00822B86D800093F422 /* MonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00722B86D800093F422 /* MonthHeaderView.swift */; };
 		A2D7C00C22B9030D0093F422 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00B22B9030D0093F422 /* CalendarView.swift */; };
+		A2D7C00F22B904060093F422 /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00E22B904060093F422 /* Date+Additions.swift */; };
 		A2F3D71622B2F5FF00E53671 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3D71522B2F5FF00E53671 /* AppDelegate.swift */; };
 		A2F3D71822B2F5FF00E53671 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2F3D71722B2F5FF00E53671 /* SceneDelegate.swift */; };
 		A2F3D71C22B2F60000E53671 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F3D71B22B2F60000E53671 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		A2D7C00522B86D350093F422 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
 		A2D7C00722B86D800093F422 /* MonthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthHeaderView.swift; sourceTree = "<group>"; };
 		A2D7C00B22B9030D0093F422 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		A2D7C00E22B904060093F422 /* Date+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Additions.swift"; sourceTree = "<group>"; };
 		A2F3D71222B2F5FF00E53671 /* CalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F3D71522B2F5FF00E53671 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2F3D71722B2F5FF00E53671 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +66,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		A2D7C00D22B903E10093F422 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7C00E22B904060093F422 /* Date+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A2F3D70922B2F5FF00E53671 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +93,7 @@
 		A2F3D71422B2F5FF00E53671 /* CalendarView */ = {
 			isa = PBXGroup;
 			children = (
+				A2D7C00D22B903E10093F422 /* Extensions */,
 				A2F3D71522B2F5FF00E53671 /* AppDelegate.swift */,
 				A2F3D71722B2F5FF00E53671 /* SceneDelegate.swift */,
 				A2D7C00922B86DA70093F422 /* Views */,
@@ -176,6 +187,7 @@
 				A2D7C00622B86D350093F422 /* MonthView.swift in Sources */,
 				A2F3D71622B2F5FF00E53671 /* AppDelegate.swift in Sources */,
 				A2F3D71822B2F5FF00E53671 /* SceneDelegate.swift in Sources */,
+				A2D7C00F22B904060093F422 /* Date+Additions.swift in Sources */,
 				A2D7C00822B86D800093F422 /* MonthHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
