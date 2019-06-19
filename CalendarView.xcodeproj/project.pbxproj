@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A294D95922BA6F4E0077EE2A /* DateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A294D95822BA6F4E0077EE2A /* DateRange.swift */; };
 		A2D7C00422B869BD0093F422 /* WeekdayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00322B869BD0093F422 /* WeekdayHeaderView.swift */; };
 		A2D7C00622B86D350093F422 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00522B86D350093F422 /* MonthView.swift */; };
 		A2D7C00822B86D800093F422 /* MonthHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00722B86D800093F422 /* MonthHeaderView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A294D95822BA6F4E0077EE2A /* DateRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRange.swift; sourceTree = "<group>"; };
 		A2D7C00322B869BD0093F422 /* WeekdayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayHeaderView.swift; sourceTree = "<group>"; };
 		A2D7C00522B86D350093F422 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
 		A2D7C00722B86D800093F422 /* MonthHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthHeaderView.swift; sourceTree = "<group>"; };
@@ -45,6 +47,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A294D95722BA6F030077EE2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A294D95822BA6F4E0077EE2A /* DateRange.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A2D7C00922B86DA70093F422 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,10 +103,11 @@
 		A2F3D71422B2F5FF00E53671 /* CalendarView */ = {
 			isa = PBXGroup;
 			children = (
-				A2D7C00D22B903E10093F422 /* Extensions */,
 				A2F3D71522B2F5FF00E53671 /* AppDelegate.swift */,
 				A2F3D71722B2F5FF00E53671 /* SceneDelegate.swift */,
+				A294D95722BA6F030077EE2A /* Model */,
 				A2D7C00922B86DA70093F422 /* Views */,
+				A2D7C00D22B903E10093F422 /* Extensions */,
 				A2D7C00A22B86DD70093F422 /* Resources */,
 				A2F3D71D22B2F60000E53671 /* Preview Content */,
 			);
@@ -187,6 +198,7 @@
 				A2D7C00622B86D350093F422 /* MonthView.swift in Sources */,
 				A2F3D71622B2F5FF00E53671 /* AppDelegate.swift in Sources */,
 				A2F3D71822B2F5FF00E53671 /* SceneDelegate.swift in Sources */,
+				A294D95922BA6F4E0077EE2A /* DateRange.swift in Sources */,
 				A2D7C00F22B904060093F422 /* Date+Additions.swift in Sources */,
 				A2D7C00822B86D800093F422 /* MonthHeaderView.swift in Sources */,
 			);
