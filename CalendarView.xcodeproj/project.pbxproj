@@ -55,7 +55,7 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		A2D7C00922B86DA70093F422 /* Views */ = {
+		A2D7C00922B86DA70093F422 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				A2D7C00B22B9030D0093F422 /* CalendarView.swift */,
@@ -63,7 +63,7 @@
 				A2D7C00522B86D350093F422 /* MonthView.swift */,
 				A2D7C00722B86D800093F422 /* MonthHeaderView.swift */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 		A2D7C00A22B86DD70093F422 /* Resources */ = {
@@ -106,7 +106,7 @@
 				A2F3D71522B2F5FF00E53671 /* AppDelegate.swift */,
 				A2F3D71722B2F5FF00E53671 /* SceneDelegate.swift */,
 				A294D95722BA6F030077EE2A /* Model */,
-				A2D7C00922B86DA70093F422 /* Views */,
+				A2D7C00922B86DA70093F422 /* View */,
 				A2D7C00D22B903E10093F422 /* Extensions */,
 				A2D7C00A22B86DD70093F422 /* Resources */,
 				A2F3D71D22B2F60000E53671 /* Preview Content */,
