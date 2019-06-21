@@ -32,31 +32,6 @@ extension Date {
         return Calendar.current.date(from: components) ?? self
     }
     
-    var firstDateOfMonth: Date {
-        var components = Calendar.current.dateComponents([.day, .month, .year], from: self)
-        components.day = 1
-        return Calendar.current.date(from: components) ?? self
-    }
-    
-    var lastDateOfMonth: Date {
-        var components = Calendar.current.dateComponents([.day, .month, .year], from: self)
-        components.day = 0
-        components.month = (components.month ?? 0) + 1
-        return Calendar.current.date(from: components) ?? self
-    }
-    
-    var firstVisibleDate: Date {
-        let firstDate = self.firstDateOfMonth
-        let count = firstDate.weekday - 1
-        return firstDate.offset(by: -count)
-    }
-    
-    var lastVisibleDate: Date {
-        let lastDate = self.lastDateOfMonth
-        let count = 7 - lastDate.weekday
-        return lastDate.offset(by: count)
-    }
-    
     func date(with day: Int) -> Date {
         var components = Calendar.current.dateComponents([.day, .month, .year], from: self)
         components.day = day
