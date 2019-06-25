@@ -10,13 +10,12 @@ import SwiftUI
 
 struct MonthView : View {
     var body: some View {
-        VStack (alignment: .leading, spacing: 1) {
+        VStack (alignment: .leading, spacing: 0) {
             MonthHeaderView()
-            ForEach(0..<4) { _ in
-                HStack (spacing: 1) {
-                    ForEach(0..<7) { _ in
-                        Color.gray
-                            .frame(width: (UIScreen.main.bounds.size.width - 6) / 7, height: (UIScreen.main.bounds.size.width - 5) / 7)
+            ForEach(0..<5) { i in
+                HStack (spacing: 0) {
+                    ForEach(1...7) { j in
+                        DayView(width: UIScreen.main.bounds.size.width / 7, day: (i * 7) + j)
                     }
                 }
             }

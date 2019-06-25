@@ -18,7 +18,7 @@ struct CalendarView : View {
                         MonthView()
                     }
                     Divider().background(Color.black)
-                    }.background(Color.black)
+                }
             }
         }.background(Color.gray)
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A20AEEE422C2D9AA006C1BC2 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20AEEE322C2D9AA006C1BC2 /* DayView.swift */; };
 		A294D95922BA6F4E0077EE2A /* DateRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = A294D95822BA6F4E0077EE2A /* DateRange.swift */; };
 		A2D7C00422B869BD0093F422 /* WeekdayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00322B869BD0093F422 /* WeekdayHeaderView.swift */; };
 		A2D7C00622B86D350093F422 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7C00522B86D350093F422 /* MonthView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A20AEEE322C2D9AA006C1BC2 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 		A294D95822BA6F4E0077EE2A /* DateRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateRange.swift; sourceTree = "<group>"; };
 		A2D7C00322B869BD0093F422 /* WeekdayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayHeaderView.swift; sourceTree = "<group>"; };
 		A2D7C00522B86D350093F422 /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 				A2D7C00322B869BD0093F422 /* WeekdayHeaderView.swift */,
 				A2D7C00522B86D350093F422 /* MonthView.swift */,
 				A2D7C00722B86D800093F422 /* MonthHeaderView.swift */,
+				A20AEEE322C2D9AA006C1BC2 /* DayView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2D7C00422B869BD0093F422 /* WeekdayHeaderView.swift in Sources */,
+				A20AEEE422C2D9AA006C1BC2 /* DayView.swift in Sources */,
 				A2D7C00C22B9030D0093F422 /* CalendarView.swift in Sources */,
 				A2FA042122BC448100AA7DC5 /* Month.swift in Sources */,
 				A2D7C00622B86D350093F422 /* MonthView.swift in Sources */,
