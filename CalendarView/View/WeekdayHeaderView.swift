@@ -10,7 +10,7 @@ import SwiftUI
 
 struct WeekdayHeaderView : View {
     
-    let weekdays = ["S", "M", "T", "W", "T", "F", "S"]
+    let weekdays = Calendar.current.veryShortWeekdaySymbols
     
     var body: some View {
         VStack (spacing: 0) {
